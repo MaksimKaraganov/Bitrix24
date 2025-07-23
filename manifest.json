@@ -10,7 +10,7 @@
     "type": "application",
     "language": "php",
     "application": {
-      "endpoint": "https://ВАШ_ДОМЕН/order_card_app/",
+      "endpoint": "http://51.250.13.43:5000/order_card?order_id=22203",
       "placement": [
         {
           "placement": "CRM_DEAL_DETAIL_TAB",
