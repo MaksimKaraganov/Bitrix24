@@ -1,0 +1,25 @@
+{
+    "code": "order_card_app",
+    "name": {
+      "ru": "Карточка заказа"
+    },
+    "description": {
+      "ru": "Внешний заказ в карточке сделки"
+    },
+    "version": "1",
+    "type": "application",
+    "language": "php",
+    "application": {
+      "endpoint": "https://ВАШ_ДОМЕН/order_card_app/",
+      "placement": [
+        {
+          "placement": "CRM_DEAL_DETAIL_TAB",
+          "handler": "placement.php",
+          "title": {
+            "ru": "Заказ"
+          }
+        }
+      ]
+    }
+  }
+  
